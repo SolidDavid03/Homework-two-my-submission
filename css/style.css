@@ -1,0 +1,61 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 150%;
+    background-color: #ffffff;
+}
+header{
+    background-color: #f2f2f2;
+}
+nav{
+    display: inline-block;
+    width: 80%;
+    background-color: #94f1e3;
+}
+main{
+    background-color: #f2f2f2;
+    font-size:100%;
+}
+footer{
+    background-color: #b4afa7;
+    color: #000000;
+}
+li{
+    display: inline;
+    width: 100%;
+    margin-right: 2%;
+}
+h1{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#000000;
+}
+p{
+    line-height: 135%;
+}
+a{
+    text-decoration: underline;
+    color: #000000;   
+}
+nav img{
+    width: 10%;
+    position: relative;
+    top: 20px;
+}
+.flex-container-parks{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.grid-container-neighborhood{
+    display: grid;
+    grid-template-columns: 10% 10%;
+    justify-content: center;
+    align-items: center;
+    row-gap: 2%;
+    overflow: scroll;
+}
+.grid-container-neighborhood img{
+    width: 100%;
+    height: auto;
+}
